@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AdrianAmihanPortfolio/static/css/main.cbdf1ad3.css",
-    "main.js": "/AdrianAmihanPortfolio/static/js/main.1afacb5a.js",
-    "static/js/453.b05d8aa5.chunk.js": "/AdrianAmihanPortfolio/static/js/453.b05d8aa5.chunk.js",
-    "static/media/LoopMind.png": "/AdrianAmihanPortfolio/static/media/LoopMind.9c5631a491cb61b740ab.png",
-    "static/media/bg-light.png": "/AdrianAmihanPortfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/AdrianAmihanPortfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/Avatar.png": "/AdrianAmihanPortfolio/static/media/Avatar.5b65c05131b8fb5a4c59.png",
-    "static/media/DOCKSIDE.png": "/AdrianAmihanPortfolio/static/media/DOCKSIDE.a5083fed5808f824cb51.png",
-    "static/media/ROOMSYNC.png": "/AdrianAmihanPortfolio/static/media/ROOMSYNC.ec117eacd90969b1dbf0.png",
-    "static/media/LAPUK.png": "/AdrianAmihanPortfolio/static/media/LAPUK.62a256fa5c559fdf99f0.png",
-    "index.html": "/AdrianAmihanPortfolio/index.html",
-    "main.cbdf1ad3.css.map": "/AdrianAmihanPortfolio/static/css/main.cbdf1ad3.css.map",
-    "main.1afacb5a.js.map": "/AdrianAmihanPortfolio/static/js/main.1afacb5a.js.map",
-    "453.b05d8aa5.chunk.js.map": "/AdrianAmihanPortfolio/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/AdrianAmihan/static/css/main.051c380d.css",
+    "main.js": "/AdrianAmihan/static/js/main.9460d801.js",
+    "static/js/453.b05d8aa5.chunk.js": "/AdrianAmihan/static/js/453.b05d8aa5.chunk.js",
+    "static/media/LoopMind.png": "/AdrianAmihan/static/media/LoopMind.9c5631a491cb61b740ab.png",
+    "static/media/bg-light.png": "/AdrianAmihan/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/AdrianAmihan/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Avatar.png": "/AdrianAmihan/static/media/Avatar.5b65c05131b8fb5a4c59.png",
+    "static/media/DOCKSIDE.png": "/AdrianAmihan/static/media/DOCKSIDE.a5083fed5808f824cb51.png",
+    "static/media/ROOMSYNC.png": "/AdrianAmihan/static/media/ROOMSYNC.ec117eacd90969b1dbf0.png",
+    "static/media/LAPUK.png": "/AdrianAmihan/static/media/LAPUK.62a256fa5c559fdf99f0.png",
+    "index.html": "/AdrianAmihan/index.html",
+    "main.051c380d.css.map": "/AdrianAmihan/static/css/main.051c380d.css.map",
+    "main.9460d801.js.map": "/AdrianAmihan/static/js/main.9460d801.js.map",
+    "453.b05d8aa5.chunk.js.map": "/AdrianAmihan/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbdf1ad3.css",
-    "static/js/main.1afacb5a.js"
+    "static/css/main.051c380d.css",
+    "static/js/main.9460d801.js"
   ]
 }
