@@ -21,6 +21,21 @@
   fieldset {
     background-color: white;
   }
+
+  .MuiOutlinedInput-root {
+    background-color: white;
+  }
+
+  .MuiInputBase-input,
+  .MuiOutlinedInput-input,
+  .MuiInputBase-input.MuiOutlinedInput-input {
+    color: #050f0b;
+  }
+
+  .MuiInputLabel-root,
+  .MuiFormHelperText-root {
+    color: rgba(0, 0, 0, 0.65);
+  }
 }
 
 label {
