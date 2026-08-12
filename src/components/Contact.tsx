@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -16,37 +15,27 @@ function Contact() {
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     setNameError(name === '');
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
+    if (name !== '' && email !== '' && message !== '') {
+      const templateParams = {
+        name,
+        email,
+        message
+      };
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+      console.log(templateParams);
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
   return (
@@ -61,6 +50,7 @@ function Contact() {
             noValidate
             autoComplete="off"
             className='contact-form'
+            onSubmit={sendEmail}
           >
             <div className='form-flex'>
               <TextField
@@ -103,7 +93,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+            <Button type="submit" variant="contained" endIcon={<SendIcon />}>
               Send
             </Button>
           </Box>
