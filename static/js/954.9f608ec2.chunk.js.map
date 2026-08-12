@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/954.9f608ec2.chunk.js","mappings":"gMAOA,QAJA,WACE,OAAOA,EAAAA,EAAAA,KAACC,EAAAA,EAAI,GACd,C","sources":["pages/Home.tsx"],"sourcesContent":["import React from 'react';\r\nimport Main from '../components/Main';\r\n\r\nfunction Home() {\r\n  return <Main />;\r\n}\r\n\r\nexport default Home;\r\n"],"names":["_jsx","Main"],"sourceRoot":""}
